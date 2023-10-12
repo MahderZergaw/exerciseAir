@@ -6,16 +6,6 @@
 ### **Welcome to the AirBnB clone project!**
 The Minishell console project is designed to create a shell application that operates in both interactive and non-interactive modes. This project serves as a fundamental emulation of Airbnb's console, offering basic functionalities similar to Airbnb's operations.
 
-### ***First step: Write a command interpreter to manage your AirBnB objects.***
-This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
-
-Each task is linked and will help to:
-
-- put in place a parent class (called `BaseModel`) to take care of the initialization, serialization and deserialization of future instances
-- create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
-- create all classes used for AirBnB (`User`, `State`, `City`, `Place`…) that inherit from `BaseModel`
-- create the first abstracted storage engine of the project: File storage.
-- create all unittests to validate all our classes and storage engine
 ## **The console**
 - create your data model
 - manage (create, update, destroy, etc) objects via a console / command interpreter
@@ -25,7 +15,15 @@ The first piece is to manipulate a powerful storage system. This storage engine 
 This abstraction will also allow you to change the type of storage easily without updating all of your codebase.
 
 The console will be a tool to validate this storage engine
+# Getting Started
 
+These instructions will get you a copy of the project up and running on your local machine (Linux distro) for development and testing purposes.
+
+## Installing
+
+You will need to clone the repository of the project from Github. This will contain the simple shell program and all of its dependencies.
+```
+git clone https://github.com/MahderZergaw/AirBnB_clone.git
 Execution
 Your shell should work like this in interactive mode:
 ```
